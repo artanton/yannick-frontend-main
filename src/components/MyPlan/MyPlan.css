@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+
+body .myPlancontainer {
+    background-image: none !important;
+}
+
+body {
+    background-image: none !important;
+}
+
+.allPlans {
+    max-width: 1132px;
+    background-image: none !important;
+    /* max-height: 672px; */
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 288px; */
+    gap: 0px;
+    border: 1px;
+    opacity: 0px;
+
+}
+
+.allPlans .allPlans-inner {
+    /* max-width: 1132px; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;
+}
+
+.allPlans-inner .allPlansTite {
+    max-width: 676px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 0px;
+
+}
+
+.allPlansTite h1 {
+    font-family: Fustat;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.44px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #4D777C
+}
+
+.allPlansTite p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4D777C
+}
+
+.allPlans-inner .allPlansCards {
+    max-width: 1132px;
+    /* max-height: 886px; */
+    height: 700px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    background: #3D7B82;
+}
+
+/* .allPlansCards .upperButtons {
+    display: flex;
+    gap: 20px;
+} */
+
+.upperButtons .button-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-row .searchInputContainer {
+    position: relative;
+    max-width: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.searchInputContainer input {
+    width: 100%;
+    padding-left: 27px;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    background: none;
+    width: Fixed (280px)px;
+    max-width: 280px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid #A5C2C5;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    color: #DEE9EB;
+}
+
+.searchInputContainer input::placeholder {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #DEE9EB;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+
+
+.button-row .planButtons {
+    max-width: 329px;
+    display: flex;
+    gap: 12px;
+}
+
+.planButtons .uploadPlan {
+    /* width: Hug (148px)px;
+    height: Hug (40px)px; */
+    outline: none;
+    border: none;
+    padding: 8px 24px 8px 20px;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    opacity: 0px;
+    background: #649499;
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+
+}
+
+.planButtons .planGenerator {
+    /* width: Hug (169px)px;
+    height: Hug (40px)px; */
+    outline: none;
+    border: none;
+    padding: 8px 24px 8px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #63ECFC;
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #1D6169;
+
+
+}
+
+.allPlansCards .planCards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.planCardsGrid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr); /* Default to 1 column */
+}
+
+/* Media queries to adjust the number of columns based on screen size */
+@media (min-width: 576px) {
+    .planCardsGrid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .planCardsGrid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .planCardsGrid {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+    }
+}

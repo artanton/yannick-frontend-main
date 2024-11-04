@@ -1,0 +1,180 @@
+/*---------------------------Card Heading---------------------------------- */
+.pricing-card {
+    max-width: 409px;
+    /* height: Fixed (522px)px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+    gap: 36px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #FFFFFF;
+
+}
+
+.pricing-card .card-heading {
+    max-width: 361px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+.card-heading .card-logo {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+.card-logo .share-logo{
+    max-width: 64px;
+    gap: 10px;
+    border-radius: 4px ;
+    opacity: 0px;
+    
+}
+.share-logo img{
+    width: 100%;
+}
+.card-logo .plan-name span {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.88px;
+    letter-spacing: -0.01em;
+    text-align: left; 
+    color: #2EB3C4;   
+}
+.card-logo .plan-name h2 {
+    font-family: Fustat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.44px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: 
+    #37575B;
+    
+
+}
+.card-heading .card-price {
+    display: flex;
+    justify-content: start;
+    gap: 8px;
+}
+.card-price h1 {
+    font-family: Fustat;
+font-size: 40px;
+font-weight: 700;
+line-height: 56.8px;
+letter-spacing: -0.01em;
+text-align: left;
+color:  
+#37575B;
+}
+.card-price span {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.88px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding-top: 25px;
+    vertical-align: text-bottom;
+    color: 
+    #37575B;
+}
+
+
+/* -----------------------------Card Description------------------------ */
+.pricing-card .card-description {
+    max-width: 361px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card-description p{
+    font-family: Fustat;
+font-size: 14px;
+font-weight: 700;
+line-height: 19.88px;
+letter-spacing: -0.01em;
+text-align: left;
+color: #37575B;
+
+
+
+}
+.card-description .list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.list-item .card-list{
+    
+    display: flex;
+    justify-content: start;
+    gap: 8px;
+    align-items: center;
+}
+.card-list span{
+    max-width: 12.63px;
+    height: 10px;
+    padding: 0.02px 0px 0.17px 0px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.card-list span img{
+   width: 100%;
+    
+
+}
+.card-list p{
+    font-family: Fustat;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.01em;
+text-align: left;
+color: 
+#37575B;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+/* -----------------------------Card Button ---------------------------- */
+.pricing-card .card-btn {
+    max-width: 361px;
+    width: 100%;
+}
+
+.card-btn button {
+    width: 100%;
+    max-width: 361px;
+    padding: 16px 24px 16px 24px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #63ECFC;
+    border: none;
+
+}
+
+.card-btn button span {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #1D6169;
+}

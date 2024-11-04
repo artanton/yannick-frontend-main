@@ -1,0 +1,295 @@
+/* Import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+
+
+
+
+.create-plan {
+    max-width: 1132px;
+    max-height: 672px;
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 288px; */
+    gap: 0px;
+    border: 1px;
+    opacity: 0px;
+}
+
+.create-new-plan {
+    /* max-width: 1132px; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;
+
+}
+
+.create-title-container {
+    max-width: 676px;
+    gap: 8px;
+    opacity: 0px;
+    width: 100%;
+}
+
+.create-title-container h1 {
+    font-family: 'Fustat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    color:
+        #4D777C;
+    letter-spacing: -0.015em;
+    margin: 0;
+}
+
+.create-title-container p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4D777C;
+}
+
+.form-container {
+    max-width: 1132px;
+    padding: 24px;
+    gap: 26px;
+    border-radius: 4px;
+    border: 1px solid #3D7B82;
+    background: #3D7B82;
+
+    opacity: 0px;
+}
+
+.create-inputs-inner {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 2px 7.1px 0px #0000001A;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 40px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+
+.form-content {
+
+    width: 100%;
+    max-width: 908px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #fff;
+    border-radius: 4px;
+
+}
+
+.form-group {
+    max-width: 420px;
+    width: 100%;
+    flex: 1 1 calc(50% - 26px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-group label {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    color: #37575B;
+
+}
+
+.form-group input {
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    opacity: 0px;
+    font-size: 16px;
+    border: 1px solid#C6CFDB;
+    border-radius: 4px;
+    background: #FFFFFF;
+
+}
+
+
+
+.css-tj5bde-Svg {
+    color: #37575B;
+}
+.css-19bb58m { 
+    margin: 0;  
+    padding: 0;
+}
+.css-13cymwt-control {
+    padding: 12px 16px;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #C6CFDB;
+    background: #FFFFFF;
+}
+.css-13cymwt-control:focus, 
+.css-13cymwt-control:active, 
+.css-13cymwt-control:focus-visible {
+    border: none !important;  
+    outline: none !important;  
+    box-shadow: none !important;  
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none;
+}
+
+.css-1jqq78o-placeholder{
+    color: #A7AEB7;
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+
+.form-group input::placeholder {
+    color: #A7AEB7;
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+
+.form-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #37575B;
+    font-family: 'Fustat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-actions button {
+    background-color: #63ECFC;
+    color: #1D6169;
+    padding: 8px 24px 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Fustat', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+}
+
+.employee-range {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+    max-width: 122.5px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group input {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 10px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.input-group .icon {
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    color: #aaaaaa;
+}
+
+.errorMessag{
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    padding:4px;
+    color:#C60000 !important;
+    
+    
+}
+
+@media (max-width: 768px) {
+
+
+    .create-title-container h1 {
+        font-size: 24px;
+    }
+
+    
+    .form-content {
+        gap: 16px;
+    }
+
+   
+    .form-group {
+        flex: 1 1 100%;
+    }
+
+    
+    .form-actions button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+   
+    .input-group {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    
+    .create-title-container h1 {
+        font-size: 20px;
+    }
+
+   
+    .create-title-container p {
+        font-size: 14px;
+    }
+
+   
+    .form-actions button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}

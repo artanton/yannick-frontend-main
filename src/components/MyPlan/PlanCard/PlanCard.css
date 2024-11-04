@@ -1,0 +1,126 @@
+.myPlanCard {
+    max-width: 259px;
+    width: 100%;
+    /* width: Fill (259px)px; */
+    /* height: Hug (250px)px; */
+    padding: 20px;
+    gap: 44px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.myPlanCard .innerPlancard {
+    max-width: 219px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.innerPlancard .planHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planHeading .aboutPlan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.aboutPlan .inner-plan-text {
+    width: Hug (65px)px;
+    height: Hug (37px)px;
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #F2F7F8;
+
+}
+
+.inner-plan-text p {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #1D6169;
+    
+}
+
+.planHeading .cardMenu {
+    width: 36px;
+    height: 36px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+
+}
+
+.cardMenu img {
+    width: 100%;
+}
+
+.innerPlancard .planDescription {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.planDescription .plan-title {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title h2 {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #37575B;
+}
+
+.planDescription p {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #4D777C;
+    display: -webkit-box;        
+    -webkit-line-clamp: 4;        
+    -webkit-box-orient: vertical;
+    overflow: hidden;             
+    text-overflow: ellipsis;
+}
+
+.innerPlancard button {
+    /* width: Hug (84px)px;
+height: Hug (29px)px; */
+
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    border: 1px solid #EEE8B4;
+    background: #FFFAD0;
+    border: noen;
+    outline: none;
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #393939;
+
+}
+
+/* ------------------------------------MUI CLASSES OVERIDE---------------------------------------------------------- */

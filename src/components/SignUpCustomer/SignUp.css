@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+
+.signup-main {
+    padding-top: 64px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-image: url('../../assets/images/background.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.upper-progress {
+    display: flex;
+    justify-content: start;
+    margin: auto;
+    gap: 3rem;
+    width: 94%;
+    margin: 0;
+}
+
+.inputs {
+    width: 100%;
+    max-width: 534px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.inputs .formdata {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.formdata label {
+    font-family: 'Fustat';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.formdata .form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: 1px solid #C6CFDB;
+    outline: none;
+    font-family: 'Fustat';
+    box-shadow: none;
+    color: #1D6169;
+    font-weight: 400;
+    font-size: 14px;
+    height: 45px;
+}
+
+.form-control::placeholder {
+    font-family: 'Fustat';
+    color: #A7AEB7;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.formdata input:focus {
+    border-color: #C6CFDB;
+    outline: none;
+    box-shadow: none;
+}
+
+.passcontainer {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.sign-up-heading h2 {
+    font-family: Fustat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56.8px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+.sign-up-heading p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.main-background {
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.passwordlength {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px 0px 8px 0px;
+}
+
+.passwordlengthtext {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D3E8EA;
+
+}
+
+.passwordlengthtext span {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #D3E8EA;
+}
+
+.passwordlengthtext span strong {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #A3F5FF;
+
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+
+.continue-sign-up {
+    font-family: Fustat;
+    width: 100%;
+    border: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 16px 24px 16px 24px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+
+}
+
+.continue-sign-up:hover {
+    background: #B6F9FF;
+    cursor: pointer;
+    color: #A5C2C5;
+
+}
+
+
+.upper-content {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.error_msg {
+    width: 100%;
+    max-width: 294px;
+    padding: 4px;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(0deg, rgba(198, 0, 0, 0.15), rgba(198, 0, 0, 0.15));
+
+}
+
+/* ------------------------------------------------------------TESTING--------------------------------------------------- */
+.phone-number-container {
+    position: relative;
+}
+
+.phone-number-select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 61px;
+    color: #A7AEB7;
+    border: none;
+    background: white;}
+
+.phone-number-input {
+    padding-left: 10px; /* Adjust this to fit the width of the select box */
+}

@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+.bg-SOME_NAME{
+    background-color: #C0F3F9!important;
+  }
+  .steps span{
+    font-family: Fustat;
+font-size: 14px;
+font-weight: 600;
+line-height: 19.88px;
+letter-spacing: -0.01em;
+text-align: left;
+color: #D3E8EA;
+
+  }

@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+
+
+
+.sidebar {
+  max-width: 264px;
+  width: 100%;
+  /* max-height: 1074px; */
+  height: 100vh;
+  padding: 44px 24px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 4px;
+  opacity: 0px;
+ overflow: hidden;
+  background-color: #F2F7F8;
+}
+
+.sidebar-content {
+  height: 844px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+/* Logo Section */
+.logo {
+  /* width: 216px; */
+  height: 49px;
+  padding: 12px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+}
+
+
+.plan-generator {
+  max-width: 216px;
+  width: 100%;
+  padding: 12px;
+  /* padding: 12px 0px 12px 12px; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 4px;
+  background: #DEE9EB;
+
+
+}
+
+.plan-generator.collapsed {
+  background-color: transparent;
+  
+}
+
+.menu-title {
+  max-width: 204px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0px 12px 0px 0px;
+}
+
+.menu-title .menu-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-icon img {
+  width: 100%;
+}
+
+.menu-title i {
+  font-size: 16px;
+  
+  margin-left: 8px;
+}
+
+
+.menu-title.collapsed i {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.menu-title.expanded i {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+
+.submenu {
+  max-width: 204px;
+padding: 0px 0px 0px 28px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+ display: none;
+ 
+  width: 216px;
+}
+
+
+.submenu-item {
+  padding: 8px;
+  text-decoration: none;
+  font-family: 'Fustat', sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+ 
+}
+
+
+.submenu-item:hover {
+  background-color: #a5d6a7;
+  color: #fff;
+}
+.submenu-item.active {
+  background-color: #1F818D;
+  color: #fff;
+  width: 200px;
+}
+
+.submenu-item.active:hover {
+  background-color: #176f78;
+}
+.predictive-analytics {
+  padding: 12px;
+  gap: 16px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #DEE9EB;
+}
+
+.predictive-analytics-heading {
+  font-weight: 600;
+  color: #37575B;
+  font-family: 'Fustat', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.planside-heading {
+  font-weight: 600;
+  color: #37575B;
+  font-family: 'Fustat', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: center;
+
+}
+
+.collapse-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.collapse-icon.collapsed {
+  transform: rotate(180deg);
+}
+
+.submenu.expanded {
+  display: flex;
+}
+
+
+.submenu-item {
+  padding: 8px;
+  text-decoration: none;
+  font-family: 'Fustat', sans-serif;
+  font-size: 14px;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submenu-item:hover {
+  background-color: #a5d6a7;
+  color: #fff;
+}
+
+
+.submenu-item.active {
+  background-color: #1F818D;
+  color: #fff;
+  width: 200px;
+}
+.submenu-item.active:hover {
+  background-color: #176f78;
+}
+.predictive-analytics {
+  padding: 12px;
+  gap: 16px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #DEE9EB;
+
+}
+
+.predictive-analytics-heading {
+  font-weight: 600;
+  color: #37575B;
+  font-family: 'Fustat', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.planside-heading {
+  font-weight: 600;
+  color: #37575B;
+  font-family: 'Fustat', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: center;
+
+}
+
+.collapse-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.collapse-icon.collapsed {
+  transform: rotate(180deg);
+}
+/* ----------------------------------------------------------------------SIDEBAR DESIGN-------------------------------------------------------- */
+.inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 216px;
+}
+.inner-div .upper-charts{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.upper-charts .start-chat{
+  /* max-width: 216px; */
+  width: 100%;
+  /* width: Fill (216px)px; */
+/* height: Hug (56px)px; */
+gap: 0px;
+opacity: 0px;
+
+}
+.start-chat button{
+  width: 100%;
+  justify-content: center;
+  padding: 16px 24px 16px 20px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 4px;
+  opacity: 0px;
+  border: 1px solid #2EB3C4;
+  background: #C0F3F9;
+  font-family: Fustat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #2EB3C4;
+  cursor: not-allowed;
+}
+.upper-charts .drop-down{
+  /* width: Fill (216px)px;
+height: Hug (344px)px; */
+display: flex;
+flex-direction: column;
+gap: 12px;
+opacity: 0px;
+
+}
+.drop-down .dashboard{
+  /* width: Fill (216px)px;
+  height: Hug (45px)px; */
+  padding: 12px;
+  display: flex;
+  gap: 16px;
+  border-radius: 4px;
+  opacity: 0px;
+  background: #F2F7F8;
+  
+}
+.dashboard-text span{
+  font-family: Fustat;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: -0.01em;
+text-align: center;
+color: #37575B;
+}
+
+
+.inner-div .saved-charts{
+
+height: 180px;
+padding: 16px 0px 16px 0px;
+gap: 0px;
+opacity: 0px;
+border-top: 0.5px solid #A7AEB7
+}
+.saved-charts .inner-saved-charts{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.save-chat{
+  /* width: Fill (216px)px;
+height: Hug (44px)px; */
+padding: 12px ;
+display: flex;
+align-items: center;
+justify-content: start;
+gap: 12px;
+border-radius: 6px ;
+opacity: 0px;
+
+}
+.save-chat .save-chat-text{
+  /* width: 164px; */
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* padding: 0px 98px 0px 0px; */
+gap: 0px;
+opacity: 0px;
+
+}
+.save-chat-text span{
+  font-family: Fustat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #4D777C;
+}
+/*------------------------------------------------------------ LOGOUT BUTTON DESIGN--------------------------------------------------------------*/
+.logout-button{
+  
+ max-width: 216px;
+
+ height: 48px;
+padding: 8px ;
+display: flex;
+gap: 8px;
+border-radius: 4px;
+border: 0.5px solid #A5C2C5;
+opacity: 0px;
+justify-content: start;
+align-items: center;
+cursor: pointer;
+
+}
+.profile-img{
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  border-radius: 24px 0px 0px 0px;
+  opacity: 0px;
+  
+}
+.profile-img img{
+  width: 100%;
+}
+.logout-button span{
+  font-family: Fustat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: center;
+ color: #4D777C; 
+ text-align: center; 
+}
+
+
+.toolkit-container {
+  position: relative;
+  display: inline-block;
+  cursor: not-allowed;
+}
+
+.toolkit-container:hover::after {
+  content: 'Coming Soon';
+  position: absolute;
+  bottom: 100%; /* Position above the element */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+ 
+  pointer-events: "not-allowed"; /* Ensures it doesn't block hover events */
+}
+
+.toolkit-container:hover::after {
+  opacity: 1;
+}
+
+

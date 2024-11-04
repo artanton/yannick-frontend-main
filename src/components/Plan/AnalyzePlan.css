@@ -1,0 +1,390 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+.analyze-plan-container {
+    /* ----------------------------------------------------analyze page container--------------------------------------------------------------- */
+}
+
+.analyze-plan {
+    max-width: 1132px;
+    max-height: 672px;
+    width: 100%;
+    margin-top: 20px;
+    background: #FFFFFF;
+    gap: 0px;
+    border: 1px;
+    opacity: 0px;
+}
+
+.analyze-plan .analyze-new-plan {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 24px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;
+}
+
+.analyze-new-plan .analyze-upload-content {
+    max-width: 676px;
+    gap: 8px;
+    opacity: 0px;
+    width: 100%;
+}
+
+.analyze-upload-content h1 {
+    font-family: 'Fustat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    color:
+        #4D777C;
+    letter-spacing: -0.015em;
+    margin: 0;
+}
+
+.analyze-upload-content p {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4D777C;
+}
+
+.analyze-plan .analyze-form {
+    max-width: 1132px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 4px;
+    border: 1px solid #3D7B82;
+    background: #3D7B82;
+    opacity: 0px;
+}
+
+.analyze-form .analyze-form-inner {
+    max-width: 1084px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.analyze-form-inner .analyze-contents {
+    max-width: 1084px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 40px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    opacity: 0px;
+    box-shadow: 0px 2px 7.1px 0px #0000001A;
+
+
+
+}
+
+.analyze-contents .analyze-inputs {
+    max-width: 600px;
+    /* width: Fixed (600px)px;
+    height: Hug (348px)px; */
+    display: flex;
+    gap: 24px;
+    opacity: 0px;
+    flex-direction: column;
+
+}
+
+.analyze-inputs h3 {
+    font-family: Fustat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #37575B;
+
+}
+
+.analyze-inputs .file-selected {
+    max-width: 600px;
+    width: 100%;
+    height: 68px;
+
+    padding: 12px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 0.88px solid #F2F7F8;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+    background: #F2F7F8;
+
+}
+
+.file-selected .analyze-pdf-uploaded {
+    /* width: Hug (192px)px;
+    height: Hug (44px)px; */
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+.analyze-pdf-uploaded .pdf-icon {
+    width: 38px;
+    height: 38px;
+}
+
+.pdf-icon img {
+    width: 100%;
+}
+
+.analyze-pdf-uploaded .pdf-text {
+    display: flex;
+    flex-direction: column;
+    /* width: Hug (138px)px;
+height: Hug (44px)px; */
+    gap: 8px;
+    opacity: 0px;
+
+}
+
+.pdf-text span:first-child {
+
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.52px;
+    text-align: left;
+    color: #37575B;
+}
+
+.pdf-text span:nth-child(2) {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.52px;
+    text-align: left;
+    color:
+        #A5C2C5;
+
+}
+
+
+.file-selected .analyze-delete {
+    /* width: Hug (40px)px;
+height: Hug (40px)px; */
+    padding: 11px 12px 11px 12px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #F2F7F8;
+
+
+}
+.analyze-delete img{
+    max-width: 16px;
+    height: 16px;
+    width: 100%;
+}
+
+.analyze-inputs .file-upload-area {
+    width: 600px;
+    height: 144px;
+    padding: 16px 10px 16px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #F2F7F8;
+    box-sizing: border-box;
+    border: 2px dashed #A5C2C5;
+}
+
+.file-upload-area .file-upload-area-inner {
+    height: 112px;
+    /* gap: 16px; */
+    gap: 31px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.file-upload-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.file-upload-label .upload-icon {
+    max-width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-icon img {
+    width: 100%;
+}
+
+.drag-drop span {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color:
+        #649499;
+
+}
+
+.drag-drop strong {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color:
+        #1D6169;
+}
+
+.file-upload-label .upload-filesizes {
+    height: 22px;
+    display: flex;
+    gap: 24px;
+}
+
+.upload-filesizes p {
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #A7AEB7;
+}
+
+.analyze-contents .analyze-form-actions {
+
+    /* max-width: 183px; */
+    width: 100%;
+    /* height: Hug (40px)px; */
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.errorMessag{
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 4px;
+    color:#C60000 !important;
+    
+    
+}
+
+.analyze-form-actions button {
+    background-color: #63ECFC;
+    color: #1D6169;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 24px 8px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+
+}
+
+.analyze-form-actions .button-icon {
+    margin-right: 8px;
+    vertical-align: middle;
+
+}
+
+.btn-text {
+    font-family: Fustat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color:
+        #1D6169;
+
+}
+
+@media (max-width: 768px) {
+
+    .title-container-main {
+        font-size: 24px;
+    }
+
+    .upload-content-heading {
+        font-size: 20px;
+    }
+
+    .drag-drop {
+        font-size: 12px;
+    }
+
+    .upload-filesize {
+        font-size: 10px;
+    }
+
+    .form-actions button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-container-main {
+        font-size: 20px;
+    }
+
+    .title-container p {
+        font-size: 14px;
+    }
+
+    .upload-content-heading {
+        font-size: 18px;
+    }
+
+    .drag-drop {
+        font-size: 10px;
+    }
+
+    .upload-filesize {
+        font-size: 8px;
+    }
+
+    .form-actions button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .upload-content {
+        padding: 16px;
+    }
+
+    .file-upload-area {
+        padding: 12px;
+        height: auto;
+        width: 100%;
+        max-width: 600px;
+    }
+}

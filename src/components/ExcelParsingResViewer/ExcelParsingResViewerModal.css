@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+
+/* Title container adjustments */
+.title-container {
+    width: 100%;
+    padding-bottom: 16px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* Title styling */
+.title-container-main {
+    font-family: 'Fustat';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.015em;
+    margin: 0;
+}
+.excel-custom-button {
+    
+    padding: 8px 24px 8px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    font-family: 'Fustat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    background-color: #63ECFC;
+    color: #1D6169;
+    transition: background-color 0.3s;
+}
+.excel-custom-button:hover {
+    background-color: #63ECFC; /* Keeps the background color the same on hover */
+    color: #1D6169;; /* Keeps the text color the same on hover */
+    box-shadow: none; /* Removes any box shadow on hover */
+}
+.button-icon {
+    margin-right: 8px; /* Adjust this value for more or less space */
+    vertical-align: middle; /* Ensures the icon aligns properly with the text */
+}
+
+/* Paragraph styling */
+.title-container p {
+    font-family: 'Fustat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: linear-gradient(0deg, #4D777C, #4D777C),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.custom-list-item-text {
+    font-family: 'Fustat'!important;
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* Form container styling */
+.form-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 24px;
+    gap: 26px;
+    border-radius: 4px 0 0 0;
+    border: 1px solid transparent;
+    background-color: #3D7B82;
+    opacity: 1;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+/* Main container styling */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Form content styling */
+.upload-content {
+    width: 100%; /* Make the upload content fill the available width */
+    display: flex;
+    flex-direction: column; /* Stack elements on smaller screens */
+    gap: 20px; /* Reduce gap on smaller screens */
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.upload-filesize{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 400;
+    color: #A7AEB7;
+}
+/* Upload content heading */
+.upload-content-heading {
+    font-family: 'Fustat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: '#44CEE3'
+}
+
+
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    /* Adjust font sizes for medium screens */
+    .title-container-main {
+        font-size: 24px;
+    }
+    .upload-content-heading {
+        font-size: 20px;
+    }
+    .drag-drop {
+        font-size: 12px;
+    }
+    .upload-filesize {
+        font-size: 10px;
+    }
+    .form-actions button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    /* Further adjustments for small screens */
+    .title-container-main {
+        font-size: 20px;
+    }
+    .title-container p {
+        font-size: 14px;
+    }
+    .upload-content-heading {
+        font-size: 18px;
+    }
+    
+}

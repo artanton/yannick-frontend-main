@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@500;700&display=swap');
+
+/* Ensure the Fustat font is loaded */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+}
+
+.sign-in-container {
+    /* max-width: 534px; */
+    width: 100%;
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 95px;
+    gap: 80px;
+}
+.sign-in-logo {
+    max-width: 182.48px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.sign-in-logo img {
+    width: 100%;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.sign-in-form .sign-in-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.sign-in-inputs .sign-in-input{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.text-input label{
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    
+}
+.text-input input{
+    max-width: 534px;
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #C6CFDB;
+    opacity: 0px;
+    
+}
+.text-input input::placeholder {
+    font-family: Fustat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #A7AEB7;
+}
+
+.text-input input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.sign-in-input .error-mgs{
+    max-width: 112px;
+margin-top: 4px;
+padding: 4px ;
+gap: 10px;
+display: flex;
+border-radius: 4px ;
+opacity: 0px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(0deg, rgba(198, 0, 0, 0.15), rgba(198, 0, 0, 0.15));
+
+
+}
+.error-mgs span{
+    font-family: Fustat;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #C60000;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    cursor: pointer;
+}
+
+
+.sign-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid white;
+    margin: 0 10px;
+}
+
+.divider span {
+    background-color: transparent;
+    padding: 0 10px;
+    color: white;
+}
+
+
+.google-sign-in {
+    width: 534px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 24px;
+    background-color: #fff;
+    border: 1px solid #C6CFDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Fustat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+    opacity: 1;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+
+
+
+.error-message {
+    color: #C60000;
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: -5px;
+
+}
+
+.welcome-container {
+    width: 100%;
+    max-width: 534px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    opacity: 1;
+
+}
+.welcome-container .sign-in-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sign-in-heading h2{
+    font-family: 'Fustat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+.sign-in-heading p{
+    font-family: 'Fustat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+.sign-in-heading .redirect-login {
+    display: inline-block;
+    width: 55px;
+    height: 24px;
+    font-family: 'Fustat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #A3F5FF;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.sign-in-heading .redirect-login:hover {
+    text-decoration: underline;
+}
+
+
+.form-options {
+    max-width: 534px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    opacity: 1;
+    color: #DEE9EB;
+}
+
+.remember-me-checkbox {
+    appearance: none; 
+    -webkit-appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    border: 1px solid #000; 
+    outline: none; 
+    cursor: pointer; 
+    background-color: transparent; 
+    position: relative; 
+}
+.remember-me-checkbox:checked {
+    background-color:#63ECFC;
+    border: none;
+    outline: none;
+    
+}
+.remember-me-checkbox:checked::after {
+    content: ''; 
+    background-image: url('../../assets/images/Checkmark.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 14px; 
+    height: 14px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.remember-me-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.remember-me-container span {
+   color: #DEE9EB;
+   font-family: 'Fustat';
+}
+.remember-me-checkbox{
+    border: 1px solid #DEE9EB;
+    background: transparent;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    gap: 10px
+}
+.remember-me-label {
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    /* Ensure text aligns with container height */
+    color: #DEE9EB;
+}
+.forgot-password {
+    font-family: 'Fustat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    color: #DEE9EB;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.sign-in-button {
+   max-width: 534px;
+    padding: 16px 24px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #B6F9FF;
+    color: #A5C2C5;
+    border: none;
+    font-family: 'Fustat';
+    font-size: 16px;
+   font-weight: 500;
+   text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: background-color 0.3s;
+    line-height: 24px;
+}
+.sign-in-button:hover {
+    background-color: #9CF1FF;
+}
